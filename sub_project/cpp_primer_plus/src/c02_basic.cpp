@@ -11,6 +11,7 @@ int main() {
   cin >> num;
   double result = sqrt(num);
   cout << "sqrt(" << num << ") is " << result;
-  cout << endl;
+
+  cout << endl;  // endl 除了换行外， 还会刷新输出
   return 0;
 }

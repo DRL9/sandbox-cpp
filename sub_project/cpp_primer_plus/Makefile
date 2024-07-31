@@ -3,7 +3,7 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++11
 
 
-TARGET = build/c02_basic
+TARGET = build/c02_basic build/c03_type
 # 默认目标
 all: build $(TARGET)
 
@@ -17,6 +17,12 @@ OBJS_C02 = $(SRCS_C02:.cpp=.o)
 # 链接可执行文件
 build/c02_basic: $(OBJS_C02)
 	$(CXX) $(CXXFLAGS) -o $@ $(OBJS_C02)
+
+SRCS_C03 = ./src/c03_type.cpp
+OBJS_C03 = $(SRCS_C03:.cpp=.o)
+build/c03_type: $(OBJS_C03)
+	$(CXX) $(CXXFLAGS) -o $@ $(OBJS_C03)
+
 
 # 编译每个源文件
 %.o: %.cpp
