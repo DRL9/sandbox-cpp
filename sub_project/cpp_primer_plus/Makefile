@@ -3,7 +3,7 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++11
 
 
-TARGET = build/c02_basic build/c03_type
+TARGET = build/c02_basic build/c04_type
 # 默认目标
 all: build $(TARGET)
 
@@ -22,6 +22,14 @@ SRCS_C03 = ./src/c03_type.cpp
 OBJS_C03 = $(SRCS_C03:.cpp=.o)
 build/c03_type: $(OBJS_C03)
 	$(CXX) $(CXXFLAGS) -o $@ $(OBJS_C03)
+
+
+SRCS_C04 = ./src/c04_compound.cpp
+OBJS_C04 = $(SRCS_C04:.cpp=.o)
+build/c04_compound: $(OBJS_C04)
+	$(CXX) $(CXXFLAGS) -o $@ $(OBJS_C04)
+
+
 
 
 # 编译每个源文件
