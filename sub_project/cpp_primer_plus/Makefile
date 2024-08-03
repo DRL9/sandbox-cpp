@@ -29,6 +29,11 @@ OBJS_C04 = $(SRCS_C04:.cpp=.o)
 build/c04_compound: $(OBJS_C04)
 	$(CXX) $(CXXFLAGS) -o $@ $(OBJS_C04)
 
+SRCS_C05 = ./src/c05_loop.cpp
+OBJS_C05 = $(SRCS_C05:.cpp=.o)
+build/c05_loop: $(OBJS_C05)
+	$(CXX) $(CXXFLAGS) -o $@ $(OBJS_C05)
+
 
 
 
