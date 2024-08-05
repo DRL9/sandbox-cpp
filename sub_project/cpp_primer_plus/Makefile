@@ -3,7 +3,7 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++11
 
 
-TARGET = build/c02_basic build/c04_type
+TARGET = build/c02_basic build/c03_type
 # 默认目标
 all: build $(TARGET)
 
