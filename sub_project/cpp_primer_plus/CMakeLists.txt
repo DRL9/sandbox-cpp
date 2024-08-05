@@ -8,6 +8,8 @@ enable_testing()
 add_executable(c03_type src/c03_type.cpp)
 add_executable(c04_compound src/c04_compound.cpp)
 add_executable(c05_loop src/c05_loop.cpp)
+add_executable(c05_ex_10 src/c05_ex_10.cpp)
+add_executable(c06_control src/c06_control.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
