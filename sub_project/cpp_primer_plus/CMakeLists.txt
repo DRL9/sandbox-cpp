@@ -11,6 +11,7 @@ add_executable(c05_loop src/c05_loop.cpp)
 add_executable(c05_ex_10 src/c05_ex_10.cpp)
 add_executable(c06_control src/c06_control.cpp)
 add_executable(c06_ex_8 src/c06_ex_8.cpp)
+add_executable(c07_function src/c07_function.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
