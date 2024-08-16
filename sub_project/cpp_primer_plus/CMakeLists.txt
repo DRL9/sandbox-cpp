@@ -13,6 +13,7 @@ add_executable(c06_control src/c06_control.cpp)
 add_executable(c06_ex_8 src/c06_ex_8.cpp)
 add_executable(c07_function src/c07_function.cpp)
 add_executable(c07_ex_10 src/c07_ex_10.cpp)
+add_executable(c08_fn src/c08_fn.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
