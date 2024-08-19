@@ -27,8 +27,8 @@ int main() {
   show_arr(arr2, size2);
 
   int a2 = 1;
-  const int* p1 = &a2;  // *p1 = 2 非法
-  int* const p2 = &a2;  // p2 = &a1 非法
+  const int* p1 = &a2;  // *p1 = 2 非法, 改变指针指向的内存非法
+  int* const p2 = &a2;  // p2 = &a1 非法， 给指针变量重新赋值非法
   const int* const p3 = &a2;
   cout << *p1 << *p2 << *p3 << endl;
 
