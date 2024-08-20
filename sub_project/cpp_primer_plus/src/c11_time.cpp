@@ -76,6 +76,21 @@ Time::Time(short h, short m, short s) {
   seconds = s;
 }
 
+Time::Time(int total) {
+  hours = total / 3600;
+  minutes = (total - hours * 3600) / 60;
+  seconds = (total - hours * 3600 - minutes * 60);
+}
+Time::Time(long total) {
+  hours = total / 3600;
+  minutes = (total - hours * 3600) / 60;
+  seconds = (total - hours * 3600 - minutes * 60);
+}
+
+Time::operator long() const {
+  return hours * 3600 + minutes * 60 + seconds;
+}
+
 void Time::show() const {
   cout << setw(2) << setfill('0') << right << hours << ":";
   cout << setw(2) << setfill('0') << right << minutes << ":";
