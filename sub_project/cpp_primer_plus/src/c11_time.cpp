@@ -57,6 +57,19 @@ Time Time::operator*(double t) const {
   return result;
 }
 
+// 友元函数不是成员函数， 不用加 Time::
+Time operator*(double m, const Time& t) {
+  return t * m;
+}
+
+// 友元函数可以访问私有成员
+ostream& operator<<(ostream& os, const Time& t) {
+  os << setw(2) << setfill('0') << right << t.hours << ":";
+  os << setw(2) << setfill('0') << right << t.minutes << ":";
+  os << setw(2) << setfill('0') << right << t.seconds;
+  return os;
+}
+
 Time::Time(short h, short m, short s) {
   hours = h;
   minutes = m;

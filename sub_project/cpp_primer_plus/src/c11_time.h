@@ -1,5 +1,5 @@
 #pragma once
-
+#include <iostream>
 // 运算符重载实例
 
 class Time {
@@ -13,5 +13,8 @@ class Time {
   Time operator+(const Time&) const;
   Time operator-(const Time&) const;
   Time operator*(double) const;
+  //   定义友元函数， 使其满足乘法交换律
+  friend Time operator*(double, const Time&);
+  friend std::ostream& operator<<(std::ostream& cout, const Time&);
   void show() const;
 };
