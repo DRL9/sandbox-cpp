@@ -12,7 +12,11 @@ const int THREE = 3;
 // 可以在外部文件访问
 extern const int THREE_ = 33;
 
+// 静态函数， 也是只在文件内可访问， 与其他文件定义的不冲突
+static void once() {}
+
 void printPoint() {
+  once();
   using namespace std;
   cout << "printPoint, DISTANCE: " << DISTANCE << endl;
 

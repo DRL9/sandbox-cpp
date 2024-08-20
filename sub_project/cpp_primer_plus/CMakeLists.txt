@@ -17,6 +17,7 @@ add_executable(c08_fn src/c08_fn.cpp)
 add_executable(c09_ns src/c09_main.cpp src/c09_coord.cpp src/c09_using_ns.cpp)
 add_executable(c10_main src/c10_main.cpp src/c10_stock.cpp)
 add_executable(c10_main_stack src/c10_main_stack.cpp src/c10_stack.cpp)
+add_executable(c11_main src/c11_main.cpp src/c11_time.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

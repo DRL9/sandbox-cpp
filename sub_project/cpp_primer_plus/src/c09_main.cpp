@@ -49,3 +49,5 @@ void printOne() {
   using namespace std;
   cout << ONE << endl;
 }
+
+void once() {}

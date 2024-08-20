@@ -20,6 +20,7 @@ class Stock {
   enum class egg2 { Small, Large };
 
  public:
+  //  默认构造函数参数
   Stock(const string& company, long n = 0, double price = 0);
   //   默认构造函数
   Stock(){};
