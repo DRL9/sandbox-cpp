@@ -30,6 +30,9 @@
 - 静态类型
 - 外部链接性和内部链接性
 - 名称空间
+- new 可表示：
+  - 常规new运算符， 分配内存： `new String`
+  - 定位new运算符， 分配内存到某个 buffer `char* buffer=new char[100]; String* p= new (buffer) String;`;
 
 ## 10 对象和类
 - 每个对象的内部变量独占内存空间

@@ -24,6 +24,7 @@ String::String(const String& s) {
   strcpy(str, s.str);
 }
 String::~String() {
+  cout << "delete: " << str << endl;
   len = 0;
   nums--;
   delete[] str;
