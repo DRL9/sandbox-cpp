@@ -21,6 +21,7 @@ add_executable(c11_main src/c11_main.cpp src/c11_time.cpp)
 add_executable(c11_main_vector src/c11_vector_main.cpp src/c11_vector.cpp)
 add_executable(c12_main src/c12_main.cpp src/c12_string_bad.cpp)
 add_executable(c12_main_string0 src/c12_main_string0.cpp src/c12_string0.cpp)
+add_executable(c13_main src/c13_main.cpp src/c13_tabtenn.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
