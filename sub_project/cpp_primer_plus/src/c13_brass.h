@@ -3,7 +3,13 @@
 
 using std::string;
 
-class Brass {
+class Base {
+ public:
+  //   纯虚函数/抽象方法
+  virtual string toString() const = 0;
+};
+
+class Brass : public Base {
  private:
   string name;
   double balance;
@@ -14,7 +20,8 @@ class Brass {
   double Balance() const { return balance; };
   string Name() const { return name; };
   virtual bool withdraw(double balance);
-  virtual void viewAcct() const;
+  void viewAcct() const;
+  string toString() const;
 };
 
 class BrassPlus : public Brass {
@@ -26,4 +33,5 @@ class BrassPlus : public Brass {
   ~BrassPlus();
   bool withdraw(double balance);
   void viewAcct() const;
+  string toString() const;
 };

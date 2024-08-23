@@ -25,6 +25,10 @@ void Brass::viewAcct() const {
   cout << "Brass::viewAcct. name: " << name << ", balance: " << balance << endl;
 }
 
+string Brass::toString() const {
+  return "Brass::toString";
+}
+
 BrassPlus::BrassPlus(const string& n, double b) : Brass(n, b) {
   owesBank = 0;
   cout << "constructor BrassPlus" << endl;
@@ -47,6 +51,10 @@ bool BrassPlus::withdraw(double b) {
 }
 
 void BrassPlus::viewAcct() const {
-  cout << "Brass::BrassPlus. name: " << Name() << ", balance: " << Balance()
+  cout << "BrassPlus::viewAcct. name: " << Name() << ", balance: " << Balance()
        << ", OweBank: " << owesBank << endl;
+}
+
+string BrassPlus::toString() const {
+  return "BrassPlus::toString";
 }
