@@ -24,7 +24,7 @@ int main() {
   }
 
   String* s1 = new String("hello world");
-  cout << "s1: " << *s1 << endl;
+  cout << "s1: " << *s1 << " \n[1]:" << (*s1)[1] << endl;
   delete s1;  // 调用析构函数
 
   char* buffer = new char[100];

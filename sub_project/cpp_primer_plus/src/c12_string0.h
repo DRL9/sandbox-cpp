@@ -23,6 +23,8 @@ class String {
   bool operator!=(const String&) const;
   String& operator=(const String&);
   String& operator=(const char[]);
+  // 重载索引运算符
+  char operator[](const int);
   friend std::ostream& operator<<(std::ostream& os, const String&);
   friend std::istream& operator>>(std::istream& is, String&);
 };

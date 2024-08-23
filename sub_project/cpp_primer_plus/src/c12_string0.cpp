@@ -48,6 +48,10 @@ String& String::operator=(const char s[]) {
   return *this;
 }
 
+char String::operator[](const int i) {
+  return str[i];
+}
+
 ostream& operator<<(ostream& os, const String& s) {
   os << s.str;
   return os;
