@@ -62,3 +62,9 @@
 - `const string& foo(const string& b) const;`
   - 返回类型中的 const 表示返回的引用类型不能被修改
   - 最右侧的 const 表示不会修改 this
+
+## 14 代码重用
+- 私有继承， 保护继承
+- 多重继承
+- 模版类
+  - 模版类的实现应该包含在头文件中

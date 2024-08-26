@@ -23,6 +23,8 @@ add_executable(c12_main src/c12_main.cpp src/c12_string_bad.cpp)
 add_executable(c12_main_string0 src/c12_main_string0.cpp src/c12_string0.cpp)
 add_executable(c13_main src/c13_main.cpp src/c13_tabtenn.cpp)
 add_executable(c13_main_brass src/c13_main_brass.cpp src/c13_brass.cpp)
+add_executable(c14_main src/c14_main.cpp src/c14_student.cpp)
+add_executable(c14_main_stack src/c14_main_stack.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
