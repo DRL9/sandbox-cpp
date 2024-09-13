@@ -2,8 +2,8 @@
 #pragma once
 
 namespace jack {
-// 对于变量， 在头文件只是声明， 而在源文件中初始化， 不然会报错： duplicate
-// symbols
+// 对于变量， 在头文件只是声明， 而在源文件中初始化，
+// 不然会报错： duplicate symbols
 extern int pos;
 // 嵌套名称空间
 namespace foo {
