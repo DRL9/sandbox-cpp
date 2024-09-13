@@ -12,5 +12,12 @@ int main() {
   cout << s1.is_full() << endl;
   cout << b << endl;
 
+  Stack<const char*> s2{12};
+  s2.push("hello");
+  s2.push("world");
+  const char* b2;
+  s2.pop(b2);
+  cout << s2.is_full() << endl;
+  cout << b2 << endl;
   return 0;
 }
