@@ -75,3 +75,15 @@
 ## 15 友元、异常和其他
 - 友元类是为了解决访问相关联的类的私有变量
   - 友元可以访问自己的私有字段
+- 嵌套类
+- 异常
+  - logic_error
+    - domain_error
+    - out_of_bounds
+    - invalid_argument
+    - length_error
+  - runtime_error
+    - range_error
+    - overflow_error
+    - underflow_error
+- RTTI 运行时类型识别
