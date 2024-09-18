@@ -87,3 +87,10 @@
     - overflow_error
     - underflow_error
 - RTTI 运行时类型识别
+  - 只能用于包含虚函数的类
+  - dynamic_cast
+  - typeid 返回 type_info 类
+- 类型转换
+  - const_cast
+  - static_cast
+  - reinterpret_cast

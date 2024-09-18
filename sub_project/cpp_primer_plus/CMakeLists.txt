@@ -27,6 +27,7 @@ add_executable(c14_main src/c14_main.cpp src/c14_student.cpp)
 add_executable(c14_main_stack src/c14_main_stack.cpp)
 add_executable(c15_main_nested_class src/c15_main_nested.cpp)
 add_executable(c15_main_error src/c15_main_error.cpp)
+add_executable(c15_main_rtti src/c15_main_rtti.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
