@@ -96,3 +96,6 @@
   - reinterpret_cast
 
 ## 16 string 和 标准模版库
+- 智能指针
+  - unique_ptr
+  - shared_ptr 引用计数用

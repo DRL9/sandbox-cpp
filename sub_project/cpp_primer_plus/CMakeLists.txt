@@ -29,6 +29,7 @@ add_executable(c15_main_nested_class src/c15_main_nested.cpp)
 add_executable(c15_main_error src/c15_main_error.cpp)
 add_executable(c15_main_rtti src/c15_main_rtti.cpp)
 add_executable(c16_main_string src/c16_main_string.cpp)
+add_executable(c16_main_ptr src/c16_main_ptr.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
