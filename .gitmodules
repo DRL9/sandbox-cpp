@@ -1,0 +1,3 @@
+[submodule "sub_project/cpp_primer_v6_solutions"]
+	path = sub_project/cpp_primer_v6_solutions
+	url = git@github.com:DRL9/cpp_primer_v6_solutions.git

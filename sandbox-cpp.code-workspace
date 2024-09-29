@@ -5,8 +5,12 @@
             "path": "."
         },
         {
-            "name": "📦 cpp_primer_v6",
+            "name": "📦 cpp_primer_plus_v6",
             "path": "./sub_project/cpp_primer_plus"
+        },
+        {
+            "name": "📦 cpp_primer_v6_solutions",
+            "path": "./sub_project/cpp_primer_v6_solutions"
         },
         {
             "name": "📦 wasm",
