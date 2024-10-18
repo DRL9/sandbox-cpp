@@ -20,6 +20,16 @@
     "settings": {
         "clang-format.language.cpp.style": "file",
         "clang-format.language.c.style": "file",
-        "liveServer.settings.multiRootWorkspaceName": "✨ root"
+        "liveServer.settings.multiRootWorkspaceName": "✨ root",
+        "files.associations": {
+            "*.page-template": "vue",
+            "*.layout-template": "vue",
+            "*.vue": "vue",
+            ".gqlconfig": "jsonc",
+            ".eslintrc": "jsonc",
+            ".postcssrc.json": "jsonc",
+            ".eslintrc.json": "jsonc",
+            "stack": "cpp"
+        }
     }
 }
